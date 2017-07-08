@@ -6,8 +6,9 @@ Soru eki mi'nin kelimenin son hecesindeki sesli harfe göre doğru şekillenmesi
 ```php
 include "soruekimi.php";
 
-//Örnek kullanım:
-echo "Berkan " . soruEkiGetir("deli");
+$metin = "bozuldu";
 
-//çıktı: Berkan deli mi?
+//Örnek kullanım:
+echo "Berkan " . soruEkiGetir("deli"); //çıktı: Berkan deli mi? 
+echo soruEkiGetir($metin); //çıktı: bozuldu mu?
 ```
