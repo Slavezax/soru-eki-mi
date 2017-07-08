@@ -1,7 +1,7 @@
 <?php
 
 function soruEkiGetir($metin){
-$sonHarf = mb_substr($metin,-2, 1,'UTF-8');
+$sonHarf = mb_substr(trim($metin),-2, 1,'UTF-8');
 
 if ($sonHarf=='a' || $sonHarf=='ı'){
 	$eklenecek =' mı?';
