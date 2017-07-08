@@ -11,4 +11,6 @@ $metin = "bozuldu";
 //Örnek kullanım:
 echo "Berkan " . soruEkiGetir("deli"); //çıktı: Berkan deli mi? 
 echo soruEkiGetir($metin); //çıktı: bozuldu mu?
+echo soruEkiGetir("şerrefsiz"); //çıktı: şerrefsiz mi?
+echo soruEkiGetir("OOOORRROSPUÇOCUUUĞUUUU"); //çıktı: OOOORRROSPUÇOCUUUĞUUUU mu?
 ```
