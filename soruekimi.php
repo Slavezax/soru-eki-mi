@@ -19,7 +19,7 @@ $sonHal = $metin . $eklenecek;
 return $sonHal;
 }
 
-echo "Berkan " . soruEkiGetir("deli");
+//echo "Berkan " . soruEkiGetir("deli");
 
 //çıktı: Berkan deli mi?
 
